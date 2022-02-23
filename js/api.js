@@ -5,7 +5,6 @@ function kanyeRest(){
     
 }
 function displayKanye(data){
-    console.log(data)
     const kanyeQuote = document.getElementById('quote');
     kanyeQuote.innerText = data.quote;
 }
